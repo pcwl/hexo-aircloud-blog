@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: AirCloud Blog
-subtitle: sometimes code， sometimes design
-author: Xiaotao Nie
+title: pcwl Blog
+subtitle: 大道至简
+author: pcwl
 language: zh
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://niexiaotao.cn/
+url: http://pcwl.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -20,39 +20,39 @@ permalink_defaults:
 
 # Site settings
 # 网站综合内容设置：
-SEOTitle: AirCloud的博客 | AirCloud's Blog
-email: onlythen@yeah.net
-description: "聂小涛的博客"
-keyword: "腾讯"
+SEOTitle: pcwl 的博客 | pcwl Blog
+email: freedompcwl@qq.com
+description: "pcwl 的博客"
+keyword: "pcwl"
 
 # SNS settings
 # 一些社交平台地址，支持以下几种：
-weibo_username:     3286578617
-zhihu_username:     ai-er-lan-xue-da
-github_username:    AirCloud
-twitter_username:   iconie_alloy
-facebook_username:  xiaotao.nie.5
-linkedin_username:  小涛-聂-80964aba
+#weibo_username:     3286578617
+#zhihu_username:     ai-er-lan-xue-da
+github_username:    pcwl
+#twitter_username:   iconie_alloy
+#facebook_username:  xiaotao.nie.5
+#linkedin_username:  小涛-聂-80964aba
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/joke.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Friends
 # 友情链接
-friends: [
-    {
-        title: "10000H",
-        href: "https://www.10000h.top"
-    },{
-        title: "Xiaotao's Page",
-        href: "https://niexiaotao.com"
-    },{
-        title: "It helps SEO",
-        href: "#"
-    }
-]
+#friends: [
+#    {
+#        title: "10000H",
+#        href: "https://www.10000h.top"
+#    },{
+#        title: "Xiaotao's Page",
+#        href: "https://niexiaotao.com"
+#    },{
+#        title: "It helps SEO",
+#        href: "#"
+#    }
+#]
 
 #comment:
 #  type: gitment
@@ -61,12 +61,12 @@ friends: [
 #  owner: aircloud
 #  repo: hexo-aircloud-blog
 
-comment:
-   type: disqus
-   script: 'https://airclouds-blog.disqus.com/embed.js'
+#comment:
+#   type: disqus
+#   script: 'https://airclouds-blog.disqus.com/embed.js'
 
 donate:
-  img: img/donate.jpg
+  img: img/donate.jpeg
   content: 感谢鼓励
 
 # The following content is not recommended to modify
@@ -130,8 +130,8 @@ theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-#deploy:
-#  type: git
-#  repo: your repo url
+deploy:
+  type: git
+  repo: https://github.com/pcwl/pcwl.github.io
 #  branch: master
 
